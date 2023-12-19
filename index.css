@@ -1,11 +1,8 @@
+
 body {
-  margin: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-}
-
+    margin: 0;
+    position: relative; 
+  }
 
 
 header {
@@ -13,7 +10,12 @@ header {
     padding-top: 20px;
     position: sticky;
     top: 0%;
-    z-index: 100;
+    z-index: 1;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.); 
+    color: white;
+    padding: 10px;
 
     
 
@@ -34,6 +36,7 @@ header {
     border: 2px solid;
     border-radius: 50px;
     color: #FFC7C7;
+    
     
 
 }
@@ -74,4 +77,24 @@ a {
     height: auto;
     margin-left: 20px;
 
+}
+
+
+
+.home-banner {
+  display: flex;
+  background-image: url('img/homebanner.png'); 
+  background-size: cover;
+  background-position: center;
+  align-items: center;
+  height: 800px; 
+  color: white;
+  padding: 20px;
+  position: absolute;
+  top: 0px; 
+  width: 100%;
+}
+
+.home-banner-text {
+    margin-left: 30px
 }
