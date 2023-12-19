@@ -2,6 +2,7 @@
 body {
     margin: 0;
     position: relative; 
+    overflow-x: hidden;
   }
 
 
@@ -14,6 +15,7 @@ header {
     justify-content: center;
     align-items: center;
     background-color: rgba(0, 0, 0, 0.); 
+    background-size: cover;
     color: white;
     padding: 10px;
 
@@ -82,22 +84,23 @@ a {
 
 
 .home-banner {
-  display: flex;
-  background-image: url('img/homebanner.png'); 
-  background-size: cover;
-  background-position: center;
-  align-items: center;
-  height: 800px; 
-  color: white;
-  padding: 20px;
-  position: absolute;
-  top: 0px; 
-  width: 100%;
+    display: flex;
+    background-image: url('img/homebanner.png'); 
+    background-repeat: no-repeat;
+    background-size: cover; /* Add semicolon here */
+    background-position: center; /* Add semicolon here */
+    align-items: center;
+    height: 800px; 
+    color: white;
+    padding: 20px;
+    position: absolute;
+    top: 0px; 
+    width: 100%;
 }
 
 .home-banner-text {
     
-    margin-left: 60px
+    margin-left: 30px;
     
 }
 
@@ -110,10 +113,27 @@ a {
     width: auto;
     height: 90px;
     padding: 20px;
+    margin-left: -20px;
 }
 
 
 .robot {
     width: auto;
     height: 200px;
+}
+
+
+.ex-banner {
+
+ background-color: #FFC7C7;
+ background-size: 100%; 
+ position: relative;
+ top: 710px;
+ height: 500px;
+      
+}
+
+.ex-banner-text {
+    padding: 5px;
+    margin-left: 35px;
 }
