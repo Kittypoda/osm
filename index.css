@@ -88,7 +88,6 @@ a {
     background-size: cover; 
     background-position: center; 
     align-items: center;
-    justify-content: ;
     height: 800px; 
     color: white;
     padding: 20px;
@@ -197,3 +196,21 @@ a {
 }
 
 
+.oslo{
+    background-color: #5F0101;
+    text-align: center;
+   
+}
+
+.oslo-text{
+    padding: 20px;
+    margin-inline: 50px;
+}
+
+.oslo-text >h2 {
+    color: #FFC7C7;
+}
+
+.oslo-text >p {
+    color: #FFF;
+}
