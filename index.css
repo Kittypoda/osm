@@ -49,8 +49,6 @@ nav ul{
 
 nav li {
     display: inline-block;
-    
-     
    
 }
 
@@ -87,9 +85,10 @@ a {
     display: flex;
     background-image: url('img/homebanner.png'); 
     background-repeat: no-repeat;
-    background-size: cover; /* Add semicolon here */
-    background-position: center; /* Add semicolon here */
+    background-size: cover; 
+    background-position: center; 
     align-items: center;
+    justify-content: ;
     height: 800px; 
     color: white;
     padding: 20px;
@@ -99,21 +98,25 @@ a {
 }
 
 .home-banner-text {
-    
     margin-left: 30px;
+    
     
 }
 
+
 .robot {
     display: flex;
-    flex-direction: row;    
+    flex-direction: row;  
+   
+   
 }
 
 .robot > img {
     width: auto;
     height: 90px;
-    padding: 20px;
-    margin-left: -20px;
+    padding: 15px;
+    
+
 }
 
 
@@ -122,18 +125,62 @@ a {
     height: 200px;
 }
 
-
-.ex-banner {
-
- background-color: #FFC7C7;
- background-size: 100%; 
- position: relative;
- top: 710px;
- height: 500px;
+.upcoming-text {
+    position: relative;
+    background-color: #FFC7C7;
+    background-size: cover;
+    height: 70px;
+    top: 600px;
       
 }
 
-.ex-banner-text {
-    padding: 5px;
-    margin-left: 35px;
+.upcoming-text > h2 {
+
+    margin: 65px 0px 0px 60px;
+}
+
+.upcoming-banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-color: #FFC7C7;
+   
+    
+}
+
+
+
+.upcoming-flex {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 1rem;
+    min-width: 600px;
+    align-items: center;
+    justify-content: center;
+}
+
+.upcoming-item1,
+.upcoming-item2,
+.upcoming-item3 {
+    display: flex;
+    flex: 0 0 250px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 3rem;
+    width: 250px;
+    height: 250px;
+}
+
+.upcoming-item1 {
+    background-image: url(img/heart.png);
+}
+
+.upcoming-item2 {
+    background-image: url(img/solar.png);
+}
+
+.upcoming-item3 {
+    background-image: url(img/ele.png);
 }
