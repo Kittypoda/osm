@@ -256,3 +256,66 @@ a:hover {
     margin-left: 20px;
     color: #FFC7C7;
 }
+
+.explore{
+   
+    background-color: #FFC7C7;
+    
+}
+
+.explore >h3{
+    padding: 20px;
+    margin-left: 30px;
+}
+
+.explore-flex{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1rem;
+    gap: 1rem;
+    justify-content: center;
+    
+}
+
+.explore-h2{
+    display: flex;
+    
+}
+
+.explore-h2 >img{
+    max-width: 70px;
+}
+
+.explore-item{
+    max-width: 430px;
+
+}
+
+
+.explore-border{
+    border: 2px solid #5F0101; 
+    border-radius: 50px;
+    padding: 20px;
+    height: 600px;
+}
+
+.cta-ex {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    text-align: center; 
+    font-size: 16px;
+    background-color: rgba(0, 0, 0, 0.); 
+    color: #5F0101;
+    border: 2px solid #5F0101; 
+    border-radius: 50px;
+    padding: 8px 60px;
+    width: 250px;
+    height: 40px;
+    margin: 30px;
+    
+  }
+  .cta-ex:hover{
+    background: #F2A4A2
+}
+  
