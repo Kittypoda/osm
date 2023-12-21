@@ -66,6 +66,10 @@ a {
     
 }
 
+a:hover {
+    font-size: 17px;
+}
+
 .icons {
     
     margin-top: 15px;
@@ -144,6 +148,7 @@ a {
     justify-content: center;
     position: relative;
     background-color: #FFC7C7;
+    min-height: 500px;
    
     
 }
@@ -192,7 +197,7 @@ a {
   }
 
 .cta:hover{
-    background: rgba(133, 53, 48, 0.52);
+    background: #F2A4A2
 }
 
 
@@ -213,4 +218,41 @@ a {
 
 .oslo-text >p {
     color: #FFF;
+}
+
+.opening{
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+
+.opening1{
+    background-image: url(img/human.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    flex: 1 1 50%;
+    max-width: 900px;
+    max-height: 700px;
+    aspect-ratio: 1;
+}
+
+.opening2{
+    background-color: #82201A;
+    background-position: center;
+    flex: 1 1 50%;
+    max-width: 900px;
+    max-height: 700px;
+    aspect-ratio: 1;
+}
+
+.opening2 >h3{
+    padding: 10px;
+    margin-left: 20px;
+
+}
+
+.opening2 >h2 {
+    margin-left: 20px;
+    color: #FFC7C7;
 }
