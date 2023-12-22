@@ -6,83 +6,6 @@ body {
   }
 
 
-header {
-    display: flex;
-    padding-top: 20px;
-    position: sticky;
-    top: 0%;
-    z-index: 2;
-    justify-content: center;
-    align-items: center;
-    background-color: rgba(0, 0, 0, 0.); 
-    background-size: cover;
-    color: white;
-    padding: 10px;
-
-    
-
-}
-
-.logo img {
-    width: 80px;
-    height: auto;
-    margin-top: 15px;
-
-   
-   
-}
-
-.header-nav{
-    display: flex;
-    justify-content: center;
-    border: 2px solid;
-    border-radius: 50px;
-    color: #FFC7C7;
-    
-    
-
-}
-
-nav ul{
-    margin-left: -35px;
-}
-
-nav li {
-    display: inline-block;
-   
-}
-
-
-
-a {
-   
-    text-decoration: none;
-    color: #FFC7C7;
-    font-family: 'McLaren', sans-serif;
-    font-size: 16px;
-    align-items: center;
-    padding-inline: 60px;
-    
-    
-}
-
-
-a:hover {
-    font-size: 17px;
-}
-
-.icons {
-    
-    margin-top: 15px;
-    margin-left: 55px;
-}
-
-.icons-img >img{
-    width: 40px;
-    height: auto;
-    margin-left: 20px;
-
-}
 
 
 
@@ -231,12 +154,12 @@ a:hover {
 
 .opening1{
     background-image: url(img/human.png);
+   
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     flex: 1 1 50%;
-    max-width: 900px;
-    max-height: 700px;
+    min-height: 350px;
     aspect-ratio: 1;
 }
 
@@ -244,8 +167,7 @@ a:hover {
     background-color: #82201A;
     background-position: center;
     flex: 1 1 50%;
-    max-width: 900px;
-    max-height: 700px;
+    min-height: 350px;
     aspect-ratio: 1;
 }
 
@@ -332,4 +254,16 @@ footer{
     width:100%;
    
    
+}
+
+@media (max-width: 1200px) { 
+
+    .home-banner {
+        
+        height: 700px; 
+     
+       
+    }
+    
+
 }
