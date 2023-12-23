@@ -6,83 +6,7 @@ body {
   }
 
 
-header {
-    display: flex;
-    padding-top: 20px;
-    position: sticky;
-    top: 0%;
-    z-index: 2;
-    justify-content: center;
-    align-items: center;
-    background-color: rgba(0, 0, 0, 0.); 
-    background-size: cover;
-    color: white;
-    padding: 10px;
 
-    
-
-}
-
-.logo img {
-    width: 80px;
-    height: auto;
-    margin-top: 15px;
-
-   
-   
-}
-
-.header-nav{
-    display: flex;
-    justify-content: center;
-    border: 2px solid;
-    border-radius: 50px;
-    color: #FFC7C7;
-    
-    
-
-}
-
-nav ul{
-    margin-left: -35px;
-}
-
-nav li {
-    display: inline-block;
-   
-}
-
-
-
-a {
-   
-    text-decoration: none;
-    color: #FFC7C7;
-    font-family: 'McLaren', sans-serif;
-    font-size: 16px;
-    align-items: center;
-    padding-inline: 60px;
-    
-    
-}
-
-
-a:hover {
-    font-size: 17px;
-}
-
-.icons {
-    
-    margin-top: 15px;
-    margin-left: 55px;
-}
-
-.icons-img >img{
-    width: 40px;
-    height: auto;
-    margin-left: 20px;
-
-}
 
 
 
@@ -93,16 +17,15 @@ a:hover {
     background-size: cover; 
     background-position: center; 
     align-items: center;
-    height: 800px; 
+    height: 1100px; 
     color: white;
-  
     position: absolute;
     top: 0px; 
     width: 100%;
 }
 
 .home-banner-text {
-    margin-left: 30px;
+    margin-left: 50px;
     
     
 }
@@ -111,6 +34,7 @@ a:hover {
 .robot {
     display: flex;
     flex-direction: row;  
+    margin-top: 40px;
     
    
    
@@ -135,7 +59,7 @@ a:hover {
     background-color: #FFC7C7;
     background-size: cover;
     height: 70px;
-    top: 600px;
+    top: 800px;
       
 }
 
@@ -173,7 +97,7 @@ a:hover {
     width: 390px;
     height: auto;
     padding: 20px;
-    margin-top: 30px;
+    
 
 }
 
@@ -198,7 +122,6 @@ a:hover {
 .oslo{
     background-color: #5F0101;
     text-align: center;
-    display: ;
     
    
 }
