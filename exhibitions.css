@@ -18,3 +18,20 @@
     
     
 }
+
+
+@media (max-width: 950px) { 
+    .exhibitions-banner {
+        
+        height: 350px; 
+       
+    }
+
+
+    .exhibitions-banner-text {
+    
+        margin: 200px 0px 0px 50px;
+        
+        
+    }
+}
