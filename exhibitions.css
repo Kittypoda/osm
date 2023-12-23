@@ -1,0 +1,20 @@
+.exhibitions-banner {
+    display: flex;
+    background-image: url('img/ex-banner.png'); 
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center; 
+    align-items: center;
+    height: 680px; 
+    color: white;
+    position: absolute;
+    top: 0px; 
+    width: 100%;
+}
+
+.exhibitions-banner-text {
+    
+    margin: 400px 0px 0px 50px;
+    
+    
+}
