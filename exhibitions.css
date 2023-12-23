@@ -143,7 +143,7 @@
 }
 
 .grid-item-3-image{
-    background-image: url('img/ele.png'); 
+    background-image: url('img/solar.png'); 
     background-repeat: no-repeat;
     background-size: contain;
     min-height: 380px;
@@ -169,6 +169,80 @@
 }
 
 
+.grid-item-4{
+    background-color: #FFC7C7;
+    aspect-ratio: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+   
+    
+}
+
+.grid-item-4-image{
+    background-image: url('img/ele.png'); 
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-height: 380px;
+    min-width: 500px;
+    
+}
+
+.grid-item-4-image >h2  {
+    padding:  20px;
+    color: #FFC7C7;
+}
+
+.grid-item-4-image >h3  {
+    margin-left: 30px;
+    
+}
+
+.grid-item-4 >p{
+   
+    color: #5F0101;
+    text-align: center;
+    
+}
+
+
+.grid-item-5{
+    background-color: #FFC7C7;
+    aspect-ratio: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+   
+    
+}
+
+.grid-item-5-image{
+    background-image: url('img/eco.png'); 
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-height: 380px;
+    min-width: 500px;
+    
+}
+
+.grid-item-5-image >h2  {
+    padding:  20px;
+    color: #FFC7C7;
+}
+
+.grid-item-5-image >h3  {
+    margin-left: 30px;
+    
+}
+
+.grid-item-5 >p{
+   
+    color: #5F0101;
+    text-align: center;
+    
+}
 
 
 
