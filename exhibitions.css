@@ -19,6 +19,79 @@
     
 }
 
+.special {
+    position: relative;
+    background-color: #5F0101;
+    top: 560px;
+    height: 600px;
+}
+
+.special-text >h2, p {
+    color: #FFF;
+    padding: 10px;
+    margin-left: 40px;
+    max-width: 1000px;
+    
+
+}
+
+
+.exhi-banner{
+    display: flex;
+    position: relative;
+    top: 560px;
+    
+
+}
+
+.exhibition-grid{
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+}
+  
+ 
+
+
+.grid-item-1{
+   
+    background-color: #FFC7C7;
+    position: relative;
+    
+   
+  
+    aspect-ratio: 1;
+
+   
+    
+}
+
+.grid-item-2{
+    display: flex;
+    position: relative;
+    background-color: #82201A;
+   
+   
+  
+    aspect-ratio: 1;
+
+   
+    
+}
+
+.grid-item-3{
+    display: flex;
+    position: relative;
+    background-color: #82201A;
+
+ 
+  
+    aspect-ratio: 1;
+
+   
+    
+}
+
+
 
 @media (max-width: 950px) { 
     .exhibitions-banner {
@@ -34,4 +107,23 @@
         
         
     }
+
+    .special {
+      
+        top: 260px;
+    }
+
+    .exhi-banner{
+       
+        top: 260px;
+        
+    
+    }
+
+
+    .exhibition-grid{
+        
+        grid-template-columns: 1fr;
+     }
+       
 }
