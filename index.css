@@ -95,7 +95,7 @@ a:hover {
     align-items: center;
     height: 800px; 
     color: white;
-    padding: 20px;
+  
     position: absolute;
     top: 0px; 
     width: 100%;
@@ -291,7 +291,8 @@ a:hover {
     border: 2px solid #5F0101; 
     border-radius: 50px;
     padding: 20px;
-    height: 600px;
+    max-height: 720px;
+    min-height: 720px;
 }
 
 .cta-ex {
@@ -326,11 +327,12 @@ footer{
    
 }
 
-@media (max-width: 1200px) { 
+@media (max-width: 950px) { 
 
     .home-banner {
         
         height: 700px; 
+     
      
        
     }
@@ -344,18 +346,38 @@ footer{
     
     .upcoming-item >img{
         width: 290px;
-        height: auto;
-        margin-top: -80px;
-        padding-bottom: 1rem;;
+        
     }
    
-    .upcoming-flex {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 1rem;
-        padding: 1rem;
-        max-width: 400px;
-        align-items: center;
-        justify-content: center;
+    .upcoming-text {
+        
+        top: 500px;
+          
     }
+    .upcoming-flex {
+       
+        max-width: 400px;
+       
+    }
+
+    .explore-item{
+        max-width: 330px;
+       
+    
+    }
+
+    .explore-border{
+        max-height: 720px;
+        min-height: 100px;
+        
+        
+        
+    }
+    
+    .cta-ex {
+        
+        border-radius: 50px;
+        padding: 8px 10px;
+        
+      }
 }
