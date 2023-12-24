@@ -35,11 +35,9 @@
     
     border: 2px solid #FFC7C7;
     border-radius: 50px;
-   
-    position: relative;
 
     text-decoration: none;
-    position: relative;
+    
    
     
 
@@ -86,16 +84,19 @@ a {
 .section {
  
     position: relative;
-    top: 600px;
+    
 }
 
 #section1{
     background-color: #F2A4A2;
-
+    height: fit-content;
+    top: 590px;
 }
 
 .section-h2{
     display: flex;
+    margin-left: 40px;
+    padding-top: 20px;
 }
 
 .section-h2 >img{
@@ -103,12 +104,14 @@ a {
 }
 
 .kid{
-    padding: 20px;
-    margin-left: 30px;
+    background-color: #F2A4A2;
+    
 }
 
 .kid >p{
     max-width: 1000px;
+    margin-left: 40px;
+    padding-bottom: 20px;
 
 }
 
@@ -148,6 +151,57 @@ a {
     height: 500px;
    
     
+}
+
+#section2{
+    background-color: #5F0101;
+}
+
+.teachers >h2{
+    color: #FFF;
+    padding: 20px;
+    margin-left: 20px;
+
+}
+
+.teachers >h3{
+    
+    padding: 20px;
+    margin-left: 20px;
+
+}
+
+.teachers >p{
+    color: #FFF;
+    padding: 20px;
+    margin: 20px 0px 0px 20px;
+
+}
+
+#section3{
+    background-color: #82201A
+}
+
+.researchers >h2{
+    color: #FFF;
+    padding: 20px;
+    margin-left: 20px;
+
+}
+
+.researchers >h3{
+    color: #FFF;
+    padding: 20px;
+    margin-left: 20px;
+
+}
+
+.researchers >p{
+    color: #FFF;
+    padding: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+
 }
 
 
@@ -205,7 +259,9 @@ a {
 }
 
 
-
+#section1{
+    top: 250px;
+}
 
 
 
