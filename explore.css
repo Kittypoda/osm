@@ -141,6 +141,15 @@ a {
 }
 
 
+.robot-banner{
+    background-image: url(img/robotbanner.png);
+    background-size: cover;
+    background-position: top center;
+    height: 500px;
+   
+    
+}
+
 
 @media (max-width: 950px) { 
     .explore-banner {
