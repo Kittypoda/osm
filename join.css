@@ -1,0 +1,81 @@
+.join-banner{
+    display: flex;
+    background-image: url('img/join.banner.png'); 
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center; 
+    align-items: center;
+    height: 680px; 
+    color: white;
+    position: absolute;
+    top: 0px; 
+    width: 100%;
+}
+
+.join-banner-text{
+    margin: 400px 0px 0px 50px;
+}
+
+.involved{
+   
+    background-color: #FFC7C7;
+    position: relative;
+    top: 560px;;
+    
+}
+
+.involved >h3{
+    padding: 20px;
+    margin-left: 30px;
+    color: #5F0101;
+}
+
+.involved-flex{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1rem;
+    gap: 1rem;
+    justify-content: center;
+    
+}
+
+
+.involved-item{
+    max-width: 430px;
+    padding-bottom: 20px;
+
+}
+
+
+.involved-border{
+    border: 2px solid #5F0101; 
+    border-radius: 50px;
+    padding: 20px;
+    height: 400px;
+    
+}
+
+
+
+@media (max-width: 950px) { 
+    .join-banner {
+        
+        height: 350px; 
+       
+    }
+
+
+    .join-banner-text {
+    
+        margin: 200px 0px 0px 50px;
+        
+        
+    }
+
+    .involved{
+        top: 250px;
+    }
+
+
+    
+}
