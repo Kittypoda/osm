@@ -60,11 +60,21 @@
     position: relative;
     background-color: #82201A;
     top:550px;
-    height: 800px;
+    height: 600px;
     text-align: center;
    
   
 }
+
+.joinus >h2 {
+    color: #FFF;
+    padding: 20px;
+}
+
+.joinus >p {
+    color: #FFF;
+}
+
 
 .joinus-form{
     
@@ -91,16 +101,16 @@ input {
     font-family: 'McLaren', sans-serif;
     font-size: 16px;
     text-align: center;
-    margin: 20px;
- 
-    
+    margin: 20px;   
 }
  
+
+
 fieldset {
     border: none;
     display: flex;
 
-  }
+}
   
   
   fieldset div {
@@ -165,5 +175,12 @@ button {
     }
 
 
+    .joinus{
+        top:250px;
+       
+       
+      
+    }
+    
     
 }
