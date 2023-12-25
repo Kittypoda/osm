@@ -1,0 +1,40 @@
+.contact-banner{
+    display: flex;
+    background-image: url('img/contact-banner.png'); 
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center; 
+    align-items: center;
+    height: 680px; 
+    color: white;
+    position: absolute;
+    top: 0px; 
+    width: 100%;
+}
+
+.contact-banner-text{
+    margin: 400px 0px 0px 50px;
+}
+
+
+
+
+@media (max-width: 1073px) { 
+    .contact-banner {
+        
+        height: 350px; 
+       
+    }
+
+    .contact-banner-text {
+    
+        margin: 200px 0px 0px 50px;
+        
+        
+    }
+
+    .info-flex {
+      
+        top: 260px;
+    }
+  }

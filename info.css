@@ -118,4 +118,22 @@
 
   
 
-  
+  @media (max-width: 1073px) { 
+    .info-banner {
+        
+        height: 350px; 
+       
+    }
+
+    .info-banner-text {
+    
+        margin: 200px 0px 0px 50px;
+        
+        
+    }
+
+    .info-flex {
+      
+        top: 260px;
+    }
+  }
