@@ -103,4 +103,19 @@
     color: #FFC7C7;
   }
 
+  .terms{
+    position: relative;
+    background-color: #FFC7C7;
+    top: 560px;
+    padding: 30px;
+    
+  }
+
+  .terms h3{
+    color: #5F0101;
+    
+  }
+
+  
+
   
