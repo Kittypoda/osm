@@ -57,6 +57,7 @@
     margin: 30px 30px 30px 30px;
     max-width: 600px;
     min-width: 400px;
+    padding-bottom: 20px;
         
 }
 
@@ -76,6 +77,30 @@
       margin: 30px 30px 30px 30px;
       max-width: 600px;
       min-width: 400px;
+      padding-bottom: 20px;
           
     
   }
+
+  .privacy{
+    position: relative;
+    background-color: #82201A;
+    top: 560px;
+    padding: 30px;
+    
+  }
+
+  .privacy p{
+    color: #FFF;
+    
+  }
+
+  .privacy-text h2{
+    color: #FFC7C7;
+  }
+
+  .privacy-text >p{
+    color: #FFC7C7;
+  }
+
+  
