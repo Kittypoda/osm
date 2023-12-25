@@ -20,7 +20,8 @@
    
     background-color: #FFC7C7;
     position: relative;
-    top: 560px;;
+    top: 560px;
+    
     
 }
 
@@ -55,6 +56,93 @@
     
 }
 
+.joinus{
+    position: relative;
+    background-color: #82201A;
+    top:550px;
+    height: 800px;
+    text-align: center;
+   
+  
+}
+
+.joinus-form{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; 
+    font-family: 'McLaren', sans-serif;
+    color: #5F0101;     
+   
+}
+   
+
+
+
+input {
+    display: flex;
+   
+    border: 2px solid #FFF;
+    border-radius: 50px;
+    background-color: #82201A;
+    color: #FFF;
+    padding: 10px 50px;
+    font-family: 'McLaren', sans-serif;
+    font-size: 16px;
+    text-align: center;
+    margin: 20px;
+ 
+    
+}
+ 
+fieldset {
+    border: none;
+    display: flex;
+
+  }
+  
+  
+  fieldset div {
+    display: flex; 
+    align-items: center; 
+    margin-bottom: 10px;
+  }
+  
+ 
+  fieldset input[type="radio"] {
+   
+    margin-right: 5px;
+  }
+  
+ 
+  fieldset label {
+    color: #FFF;
+    font-family: 'McLaren', sans-serif;
+    font-size: 16px;
+    
+  }
+
+
+button {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    text-align: center; 
+    font-family: 'McLaren', sans-serif;
+    font-size: 16px;
+    background-color: #82201A; 
+    color: #FFF;
+    border: 2px solid #FFF; 
+    border-radius: 50px;
+    padding: 20px 60px;
+    width: 250px;
+    height: 40px;
+    margin-left: 60px;
+   
+}
+    
+    
 
 
 @media (max-width: 950px) { 
