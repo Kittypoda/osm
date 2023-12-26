@@ -9,7 +9,6 @@ body {
 
 
 
-
 .home-banner {
     display: flex;
     background-image: url('img/homebanner.png'); 
@@ -75,10 +74,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    
     background-color: #FFC7C7;
     min-height: 500px;
-    
     position: relative;
     top: 750px;
    
@@ -278,10 +275,18 @@ footer{
     .home-banner {
         
         height: 700px; 
-        top:150px;
+        top:0px;
      
      
        
+    }
+
+    .upcoming-banner {
+        
+        top: 550px;
+       
+       
+        
     }
     
     .upcoming-item{
