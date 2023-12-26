@@ -1,6 +1,6 @@
 .contact-banner{
     display: flex;
-    background-image: url('img/contact-banner.png'); 
+    background-image: url('img/contactbanner.png'); 
     background-repeat: no-repeat;
     background-size: cover; 
     background-position: center; 
@@ -16,25 +16,138 @@
     margin: 400px 0px 0px 50px;
 }
 
+.contact-flex{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    top: 560px;
+}
+
+.contact-info{
+    background-color: #82201A;
+    flex: 1 1 50%;
+    aspect-ratio: 1;
+    justify-content: center; 
+    align-items: center; 
+}
+
+
+ 
+
+
+.contact-info h2{
+    color: #FFC7C7;
+    margin: 20px;
+    line-height: 80px
+}
+
+.contact-info h3{
+    margin: 20px;
+}
+
+.contact-form{
+    background-color: #FFC7C7;
+    flex: 1 1 50%;
+    aspect-ratio: 1;
+    justify-content: center; 
+    align-items: center; 
+    
+
+}
+
+
+.contact-form-text{
+    padding: 20px;
+}
+
+.contact-form-text p{
+    width: 460 px;
+}
+
+
+
+.contact-form-class{
+    padding: 30px;
+    display: flex;
+    justify-content: center;   
+}
+
+.contact-form-div{
+    font-family: 'McLaren', sans-serif;
+    color: #5F0101; 
+    border: 2px solid #5F0101; 
+    border-radius: 50px;
+    text-align: center;
+    width: 500px;
+    height: 620px;
+}
+
+
+
+input {
+    border: 2px solid #5F0101;
+    border-radius: 50px;
+    background-color: #FFC7C7;
+    color: #5F0101;
+    padding: 10px 50px;
+    font-family: 'McLaren', sans-serif;
+    font-size: 16px;
+    text-align: center;
+    margin: 10px;
+    outline: none;   
+}
+
+input:focus{
+    background-color: #FFF;
+    outline: none;
+}
+
+
+
+#text{
+    height: 200px;
+  
+}
+ 
+button {
+   text-align: center; 
+    font-family: 'McLaren', sans-serif;
+    font-size: 16px;
+    background-color: #FFC7C7; 
+    color: #5F0101;
+    border: 2px solid #5F0101; 
+    border-radius: 50px;
+    width: 250px;
+    height: 50px;  
+}
+
+
+
+button:hover{
+    background-color: #F2A4A2;
+}
+
 
 
 
 @media (max-width: 1073px) { 
+
     .contact-banner {
-        
-        height: 350px; 
-       
+        height: 350px;    
     }
 
     .contact-banner-text {
-    
         margin: 200px 0px 0px 50px;
         
         
     }
 
-    .info-flex {
-      
-        top: 260px;
+    .contact-flex {
+      top: 260px;
+    }
+
+    .contact-form-div{
+        width: 400px;
+        height: 620px;
     }
   }

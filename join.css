@@ -101,7 +101,8 @@ input {
     font-family: 'McLaren', sans-serif;
     font-size: 16px;
     text-align: center;
-    margin: 20px;   
+    margin: 20px;  
+    outline: none; 
 }
  
 
@@ -117,12 +118,19 @@ fieldset {
     display: flex; 
     align-items: center; 
     margin-bottom: 10px;
-  }
+    outline: none;   
+}
+
+
+
+  
   
  
   fieldset input[type="radio"] {
    
     margin-right: 5px;
+
+   
   }
   
  
