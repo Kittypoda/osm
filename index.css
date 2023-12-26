@@ -312,6 +312,17 @@ footer{
        
     }
 
+    .oslo{
+       
+        top:500px  
+    }
+
+    .opening{
+       
+        top:480px;
+          
+    }
+
     .explore-item{
         max-width: 330px;
        
@@ -333,6 +344,11 @@ footer{
         
       } 
 
+      .explore{
    
+      
+        top: 370px;
+        
+    }
 
 }

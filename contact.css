@@ -97,6 +97,8 @@ input {
     outline: none;   
 }
 
+
+
 input:focus{
     background-color: #FFF;
     outline: none;

@@ -120,10 +120,9 @@ a {
     
   }
   
-  input{
-    display:none;
-    
-  }
+#op{
+    display: none;
+}
   
   .mobile label{
     font-family: 'McLaren', sans-serif;
@@ -184,6 +183,7 @@ a {
       height: 20%;
       height: calc(100% / 5);
       min-height: 54px;
+      border: none;
   }
   
   .overlay ul li a {
@@ -193,6 +193,7 @@ a {
 
       font-family: McLaren;
       font-size: 19px;
+     
   }
   
  
@@ -210,9 +211,7 @@ a {
   }
   
  
-  
- 
-  
+
 
 
 
