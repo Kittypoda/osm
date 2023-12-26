@@ -70,7 +70,9 @@ header {
 }
 
 .header-nav:hover{
-    background-color: #5F0101;
+    background: rgba(95, 1, 1, 0.70);
+
+
 }
 
 nav ul{

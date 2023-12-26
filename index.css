@@ -59,13 +59,15 @@ body {
     background-color: #FFC7C7;
     background-size: cover;
     height: 70px;
-    top: 800px;
+    top:750px
+ 
       
 }
 
 .upcoming-text > h2 {
 
    margin-left: 60px;
+   
    
 }
 
@@ -76,6 +78,10 @@ body {
     
     background-color: #FFC7C7;
     min-height: 500px;
+    
+    position: relative;
+    top: 750px;
+   
    
     
 }
@@ -86,32 +92,35 @@ body {
     display: flex;
     flex-wrap: wrap;
     gap: 1rem;
-    padding: 1rem;
+    padding: 2rem;
     min-width: 600px;
     align-items: center;
     justify-content: center;
+   
 }
 
 
 .upcoming-item{
     width: 390px;
     height: auto;
-    padding: 20px;
+    padding: 40px;
     
 
 }
 
 
-.upcoming-item >img{
+.upcoming-item img{
     width: 390px;
     height: auto;
     margin-top: -80px;
     padding-bottom: 1rem;;
 }
 
-.upcoming-item >h3{
+.upcoming-item h3{
    
     margin-left: 20px;
+    position: relative;
+    top:-25px
    
   
 
@@ -122,6 +131,8 @@ body {
 .oslo{
     background-color: #5F0101;
     text-align: center;
+    position: relative;
+    top:700px
     
    
 }
@@ -142,6 +153,10 @@ body {
 .opening{
     display: flex;
     flex-wrap: wrap;
+    position: relative;
+    top:680px;
+    min-height: 800px;
+    
    
 }
 
@@ -152,8 +167,10 @@ body {
     background-position: center;
     background-size: cover;
     flex: 1 1 50%;
-    min-height: 350px;
+  
+  
     aspect-ratio: 1;
+ 
 }
 
 .opening2{
@@ -162,6 +179,8 @@ body {
     flex: 1 1 50%;
     min-height: 350px;
     aspect-ratio: 1;
+   
+    
 }
 
 .opening2 >h3{
@@ -170,7 +189,7 @@ body {
 
 }
 
-.opening2 >h2 {
+.opening2 h2 {
     margin-left: 20px;
     color: #FFC7C7;
 }
@@ -178,6 +197,8 @@ body {
 .explore{
    
     background-color: #FFC7C7;
+    position: relative;
+    top: 670px;
     
 }
 
@@ -193,6 +214,7 @@ body {
     padding: 1rem;
     gap: 1rem;
     justify-content: center;
+   
     
 }
 
@@ -201,7 +223,7 @@ body {
     
 }
 
-.explore-h2 >img{
+.explore-h2 img{
     max-width: 70px;
 }
 
@@ -251,11 +273,12 @@ footer{
    
 }
 
-@media (max-width: 950px) { 
+@media (max-width: 1073px) { 
 
     .home-banner {
         
         height: 700px; 
+        top:150px;
      
      
        
@@ -264,11 +287,11 @@ footer{
     .upcoming-item{
         width: 290px;
         height: auto;
-        padding: 20px;
+        padding: 40px;
     
     }
     
-    .upcoming-item >img{
+    .upcoming-item img{
         width: 290px;
         
     }
@@ -300,8 +323,11 @@ footer{
     
     .cta-ex {
         
-        border-radius: 50px;
-        padding: 8px 10px;
+        padding: 8px 0px;
+      
         
-      }
+      } 
+
+   
+
 }
