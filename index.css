@@ -275,8 +275,8 @@ footer{
 .footer-text{
     display: flex;
     gap: 20px;
-    position: relative;
-    left: 1100px;
+    position: absolute;
+    right: 30px;
 
     
 }
@@ -369,16 +369,17 @@ footer{
     
     .cta-ex {
         
-        padding: 8px 0px;
-      
-        
-      } 
+        padding: 8px 0px;   
+    } 
 
       .explore{
-   
-      
-        top: 370px;
-        
+
+        top: 370px;   
     }
 
+    footer{
+  
+        display: none;
+          
+    }
 }
