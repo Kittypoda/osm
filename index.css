@@ -167,6 +167,7 @@ body {
   
   
     aspect-ratio: 1;
+    min-height: 650px;
  
 }
 
@@ -174,7 +175,7 @@ body {
     background-color: #82201A;
     background-position: center;
     flex: 1 1 50%;
-    min-height: 550px;
+    min-height: 650px;
     aspect-ratio: 1;
    
     
@@ -359,7 +360,16 @@ footer{
         font-size: 30px;
        
     }
-
+    .opening1{
+        min-width: 375px;
+     
+    }
+    
+    .opening2{
+        min-width: 375px;
+       
+        
+    }
 
     .explore-item{
         max-width: 330px;
