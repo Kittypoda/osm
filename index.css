@@ -167,7 +167,7 @@ body {
   
   
     aspect-ratio: 1;
-    min-height: 650px;
+    max-height: 790px;
  
 }
 
@@ -175,7 +175,7 @@ body {
     background-color: #82201A;
     background-position: center;
     flex: 1 1 50%;
-    min-height: 650px;
+    max-height: 790px;
     aspect-ratio: 1;
    
     
@@ -362,11 +362,13 @@ footer{
     }
     .opening1{
         min-width: 375px;
+        min-height: 650px;
      
     }
     
     .opening2{
         min-width: 375px;
+        min-height: 650px;
        
         
     }
