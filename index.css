@@ -152,7 +152,7 @@ body {
     flex-wrap: wrap;
     position: relative;
     top:680px;
-    min-height: 800px;
+    
     
    
 }
@@ -174,7 +174,7 @@ body {
     background-color: #82201A;
     background-position: center;
     flex: 1 1 50%;
-    min-height: 350px;
+    min-height: 550px;
     aspect-ratio: 1;
    
     
@@ -264,10 +264,40 @@ footer{
     background-color: #5F0101;
     position: fixed;
     bottom :0px;
-    height:30px;
+    height:50px;
     width:100%;
+    display: flex;
+    
    
    
+}
+
+.footer-text{
+    display: flex;
+    gap: 20px;
+    position: relative;
+    left: 1100px;
+
+    
+}
+
+
+
+.footer-text img{
+   
+    width: 20px;
+    height: 20px;
+   
+   
+    
+}
+
+.footer-text p{
+    position: relative;
+    color: #FFF;
+    margin-top: ;
+    
+    
 }
 
 @media (max-width: 1073px) { 
