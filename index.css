@@ -189,6 +189,7 @@ body {
 .opening2 h2 {
     margin-left: 20px;
     color: #FFC7C7;
+   
 }
 
 .explore{
@@ -352,6 +353,13 @@ footer{
         top:480px;
           
     }
+
+    
+    .opening2 h2 {
+        font-size: 30px;
+       
+    }
+
 
     .explore-item{
         max-width: 330px;
