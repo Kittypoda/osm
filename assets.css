@@ -222,7 +222,7 @@ a {
     margin-left: 15px;
 }
 
-.icons-img >img{
+.icons img{
     width: 40px;
     height: auto;
     margin-left: 15px;
@@ -278,9 +278,6 @@ a {
 
       .header-nav{
         display: none;
-        
-        
-        
     
     }
 
@@ -297,6 +294,16 @@ a {
         
         display:flex;
       }
+
+      
+      .icons img{
+        width: 36px;
+        height: auto;
+    }
+    .logo img {
+        width: 60px;
+        height: auto;   
+    }
     }
          
    

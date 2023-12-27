@@ -39,7 +39,7 @@ body {
    
 }
 
-.robot > img {
+.robot  img {
     width: auto;
     height: 80px;
   
@@ -311,6 +311,14 @@ footer{
      
      
        
+    }
+
+    .robot  img {
+        width: auto;
+        height: 60px;
+      
+        
+    
     }
 
     .upcoming-banner {
