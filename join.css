@@ -44,8 +44,16 @@
 .involved-item{
     max-width: 430px;
     padding-bottom: 20px;
+  
 
 }
+
+.involved-item p{
+   color: #5F0101;
+  
+
+}
+
 
 
 .involved-border{
@@ -57,33 +65,55 @@
 }
 
 .joinus{
+   
     position: relative;
     background-color: #82201A;
     top:550px;
     height: 600px;
+   
     text-align: center;
+  
    
   
 }
 
-.joinus >h2 {
-    color: #FFF;
-    padding: 20px;
-}
-
-.joinus >p {
-    color: #FFF;
-}
-
-
-.joinus-form{
-    
+.joinus-text{
     display: flex;
-    flex-direction: row;
+    flex-direction:column;
     justify-content: center;
-    align-items: center; 
+    align-items: center;
+    padding-top: 20px;
+   
+
+}
+
+.joinus-text p{
+    max-width: 270;
+}
+
+
+
+
+
+.joinus-text h2,p{
+   color: #FFF;
+    
+
+}
+
+
+
+
+.joinus-form form{
+    
+   
     font-family: 'McLaren', sans-serif;
-    color: #5F0101;     
+    color: #5F0101; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
    
 }
    
@@ -92,7 +122,8 @@
 
 input {
     display: flex;
-   
+    justify-content: center;
+    align-items: center;
     border: 2px solid #FFF;
     border-radius: 50px;
     background-color: #82201A;
@@ -101,7 +132,7 @@ input {
     font-family: 'McLaren', sans-serif;
     font-size: 16px;
     text-align: center;
-    margin: 20px;  
+    margin: 10px;  
     outline: none; 
 }
  
@@ -113,15 +144,21 @@ input {
 fieldset {
     border: none;
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+   
 
 }
   
   
   fieldset div {
     display: flex; 
+    flex-wrap: wrap;
     align-items: center; 
     margin-bottom: 10px;
-    outline: none;   
+    outline: none;  
+     
 }
 
 
@@ -141,6 +178,7 @@ fieldset {
     color: #FFF;
     font-family: 'McLaren', sans-serif;
     font-size: 16px;
+    text-align: center;
     
   }
 
@@ -159,7 +197,7 @@ button {
     padding: 20px 60px;
     width: 250px;
     height: 40px;
-    margin-left: 60px;
+    
    
 }
 
@@ -186,16 +224,48 @@ button:hover{
     }
 
     .involved{
-        top: 250px;
+        top: 230px;
+    }
+
+    .involved-border{
+     
+        min-height: 600px;
+        
     }
 
 
     .joinus{
-        top:250px;
+        top:210px;
+        min-width: 300px;
        
        
       
     }
     
+    .joinus p {
+       max-width: 300px;
+    }
     
+    input {
+        
+        padding: 10px 20px;
+       
+    }
+
+    button {
+       
+        max-width: 150px;
+       
+       
+       
+    }
+
+    fieldset input[type="radio"] {
+   
+        margin-right: 0px;
+    
+       
+      }
+
+
 }
