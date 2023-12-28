@@ -153,6 +153,12 @@ button:hover{
         max-width: 350px;
         min-height: 700px;
     }
+
+    .contact-info h2{
+       
+        line-height: 60px
+    }
+    
     
     
     
