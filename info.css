@@ -134,11 +134,40 @@
 
     .info-flex {
       
-        top: 260px;
+        top: 230px;
     }
 
+    .info-item1 h2{
+        margin-left: 30px;
+        padding-top: 20px;
+          
+          
+         
+      }
+      
+      .info-item1 p{
+          margin: 10px 30px 30px 30px;
+          max-width: 600px;
+          min-width: 300px;
+        
+              
+      }
+      .info-item2 p{
+        margin: 10px 30px 30px 30px;
+        max-width: 600px;
+        min-width: 300px;
+      
+            
+    }
     .privacy{
         
+        top: 260px;
+        
+        
+      }
+
+      .terms{
+       
         top: 260px;
         
         
