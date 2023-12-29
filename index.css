@@ -34,14 +34,20 @@ body {
     display: flex;
     flex-direction: row;  
     margin-top: 40px;
+    padding: 0%;
     
    
    
 }
 
+.robot a{
+    padding: 5px;
+}
+
 .robot  img {
     width: auto;
     height: 80px;
+    padding: 0%;
   
     
 
