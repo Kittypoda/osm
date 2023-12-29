@@ -148,6 +148,7 @@
 #section2{
     background-color: #5F0101;
 }
+   
 
 .teachers >h2{
     color: #FFF;
@@ -171,7 +172,9 @@
 }
 
 #section3{
-    background-color: #82201A
+    background-color: #82201A;
+    min-height: 650px;
+    
 }
 
 .researchers >h2{

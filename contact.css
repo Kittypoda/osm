@@ -21,6 +21,7 @@
     flex-wrap: wrap;
     position: relative;
     top: 560px;
+    min-height: 750px;
 }
 
 .contact-info{
@@ -52,6 +53,8 @@
     justify-content: center; 
     align-items: center; 
     
+    
+    
 
 }
 
@@ -79,7 +82,8 @@
     border-radius: 50px;
     text-align: center;
     width: 500px;
-    height: 620px;
+    height: 630px;
+   
 }
 
 
@@ -146,6 +150,7 @@ button:hover{
 
     .contact-flex {
       top: 230px;
+     
     }
 
    
