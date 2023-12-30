@@ -1,4 +1,5 @@
 Brief
+
 Design and build a modern, accessible and responsive web presence for the client using the provided image and text content.
 
 The site should appeal to youngsters without pandering; while aiming at a younger audience it should not patronise them with overtly childish themes. The core purpose of the site is to excite and entice people to visit the museum.
